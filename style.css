@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'prataregular';
+    src: url('./font/prata-regular-webfont.woff2') format('woff2'),
+         url('./font/prata-regular-webfont.woff') format('woff');
+
+}
+.nav-link {
+    color: black;
+}
+body {
+    font-family: 'prataregular';
+    font-weight: 100;
+}
+.intro {
+    display: flex;
+    background-color:rgb(234, 237, 237);
+    border-radius: 50px;
+    width:auto;
+    height: 600px;
+    flex-direction: column;
+    padding-left: 600px;
+
+}
+/* .info {
+    justify-content: center;
+    border-left: 600px;
+
+} */
+section {
+    /* margin-top: 20px; */
+    margin-bottom: 100px;
+    color: gray;
+    font-weight: lighter;
+    /* display:flex;
+    justify-content:center; */
+}
+section .imagem{
+    /* position: absolute;
+    right: 20px;
+    top: 100px; */
+    justify-content: center;
+}
+section .imagem img{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+section .nome {
+    /* padding-left: 100px;
+    padding-bottom: 0px; */
+    font-weight: 100;
+    font-size: 50px;
+}
+section .prof{
+    padding-left: 85px;
+    padding-top: 50px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+footer {
+    font-weight: bolder;
+    font-size: larger;
+    color:#27461f;
+}
+li {
+    list-style-type: none;
+    margin: 5px;
+  }
+
+.box-esquerda h4 {
+    font-size:22px;
+    color:#27461f;
+    line-height:42px;
+    position: relative;
+}
+
+.box-esquerda  h4:before {
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #27461f;
+    width: 300px;
+    left:0;
+    bottom:0
+}
+.professional{
+    display:block;
+    padding-left: 10px;
+}
+
+.pag2 {
+    display:block;
+    background-color:rgb(234, 237, 237);
+    height: 400px;
+    border-radius: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+.pag2 h4 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 280px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #27461f;
+    font-weight: bold;
+}
+
+.pag2 ul li{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+.colunas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.compet {
+    font-weight: 100;
+    color: gray;
+    padding-left: 10px;
+    padding: 30px;
+    background-color: rgb(234, 237, 237);
+    border-radius: 50px;
+    margin-right: 30px;
+    height: fit-content;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.idiomas{
+    font-weight: 100;
+    color: gray;
+    padding-left: 10px;
+    padding: 30px;
+    background-color: rgb(234, 237, 237);
+    border-radius: 50px;
+    margin-right: 30px;
+    height: fit-content;
+    margin-bottom: 100px;
+}
+.interesses {
+    font-weight: 100;
+    color: gray;
+    padding-left: 10px;
+    padding: 30px;
+    background-color: rgb(234, 237, 237);
+    border-radius: 50px;
+    margin-right: 30px;
+    height: fit-content;
+}
+.
